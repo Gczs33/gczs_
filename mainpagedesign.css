@@ -1,0 +1,174 @@
+
+body{
+    background-color: rgb(192, 203, 252)
+}
+
+h1{
+    text-align: center;
+    font-family: "Nexa Heavy";
+    font-size: 2vw;
+    color: rgb(7, 7, 136);
+    background-color: rgb(163, 178, 248);
+    border-radius: 3vw;
+}
+
+h2{
+    text-align: center;
+    font-family: "Nexa Heavy";
+    font-size: 1.5vw;
+    color: rgb(7, 7, 136)
+}
+
+h3{
+    text-align: center;
+    font-family: "Nexa Extra Light";
+    font-size: 1.25vw;
+    position: relative;
+    margin-top: 8vw;
+    color: rgb(7, 7, 136);
+}
+
+h4{
+    text-align: center;
+    font-family: "Nexa Heavy";
+    font-size: 1vw;
+    color: rgb(163, 178, 248);
+    position: relative;
+    margin-top: 15vw;
+    margin-bottom: 0vw
+}
+
+h5{
+    text-align: center;
+    font-family: "Nexa Extra Light";
+    font-size: 1.25vw ;
+    color: rgb(7, 7, 136);
+}
+
+h6{
+    text-align: center;
+    font-family: "Nexa Extra Light";
+    font-size: 1.25vw;
+    color: rgb(7, 7, 136);
+    margin-top: 15vw;
+}
+
+.pick {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(163, 178, 248);
+    border-radius: 5vw;
+   
+}
+
+
+.vrecom {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,20%);
+    border-radius: 5vw;
+    gap: 2vw;
+}
+
+.regwinb {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,20%);
+}
+
+.regwinb img {
+    border-radius: 3vw;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+
+}
+
+.regwinb img:hover {
+    transform: scale(1.1)
+}
+
+
+iframe{
+    border-radius: 1.5vw;
+
+}
+
+.quickcpu { 
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.quickcpu:hover {
+    transform: scale(1.2)
+    
+}
+
+.ccleaner { 
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.ccleaner:hover {
+    transform: scale(1.2)
+    
+}
+
+.mbytes { 
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.mbytes:hover {
+    transform: scale(1.2)
+    
+}
+
+.videocapet1 {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.videocapet1:hover {
+    transform: scale(1.2)
+}
+
+.videocapet2 {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.videocapet2:hover {
+    transform: scale(1.2)
+}
+
+.videocapet3 {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.videocapet3:hover {
+    transform: scale(1.2)
+}
+
+.videocapet4 {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.videocapet4:hover {
+    transform: scale(1.2)
+}
+
+@font-face {
+    font-family: "Nexa Heavy";
+    src: url(fonts/nexa/Nexa-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Nexa Extra Light";
+    src: url(fonts/nexa/Nexa-ExtraLight.ttf);
+}
